@@ -9,7 +9,6 @@
 
 
   :main undead.system
-
   :profiles {:dev {:plugins [[lein-cljsbuild "1.1.3"]
 							 [lein-figwheel "0.5.0"]]
 				   :dependencies [[reloaded.repl "0.2.1"]]
