@@ -1,2 +1,4 @@
 target/*
 *.log
+.lein-env
+.nrepl-port
