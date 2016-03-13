@@ -6,8 +6,8 @@
 (defn index [req]
   {:status  200
    :headers {"Content-Type" "text/html"}
-   :body    "<h1>HELLO FROM COMPOJURE!!!</h1>"})
+   :body    "<h1>hello from compojure!!!</h1>"})
 
 (defroutes app
-  (GET / [] index)
-  (resources /))
+  (GET "/" [] index)
+  (resources "/"))
